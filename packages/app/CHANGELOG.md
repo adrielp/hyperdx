@@ -1,5 +1,25 @@
 # @hyperdx/app
 
+## 2.23.1
+
+### Patch Changes
+
+- 7d1a8e5: fix: Show sidebar favorites empty state when none are starred yet
+- 800689a: feat: Add reusable EmptyState component and adopt it across pages for consistent empty/no-data states
+- 2570ff8: fix: Change K8s CPU chart format from percentage to number to support both old and new OTel collector metric names
+- ad71dc2: feat: Add keyboard shortcuts modal from the Help menu
+
+  - New **Keyboard shortcuts** item opens a modal documenting app shortcuts (command palette ⌘/Ctrl+K, search focus, time picker, tables, traces, dashboards, and more).
+  - Help menu items ordered by importance (documentation and setup before shortcuts and community).
+  - Shortcuts modal uses a readable width, row dividers, and **or** vs **+** labels so alternative keys are not confused with key chords.
+
+- 1bcca2c: feat: Add alert icons to dashboard list page
+- ffc961c: fix: Add error message and edit button when tile source is missing
+- 3ffafce: feat: show error details in search event patterns
+- f8d2edd: feat: Show created/updated metadata for saved searches and dashboards
+- Updated dependencies [24767c5]
+  - @hyperdx/common-utils@0.17.1
+
 ## 2.23.0
 
 ### Minor Changes
